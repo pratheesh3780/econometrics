@@ -1,5 +1,5 @@
 ui <- shinydashboard::dashboardPage(skin = "purple",
-  shinydashboard::dashboardHeader(title = "ECONOMETRICS"), # dashboard Head
+  shinydashboard::dashboardHeader(title = "econR"), # dashboard Head
 
 
   shinydashboard::dashboardSidebar( # Sidebarmenu
@@ -27,16 +27,16 @@ ui <- shinydashboard::dashboardPage(skin = "purple",
       tabItem(tabName = "Home",
                
               tags$h3(
-                HTML("<b> Introduction to ECONOMETRICS </b>")
+                HTML("<b> Introduction to econR</b>")
               ),
               
               tags$p(
-                HTML("<p  style='text-align: justify;'>Welcome to the realm of data visualization, a critical facet of agricultural research where comprehending and presenting data is as challenging as the fieldwork itself. Our mission is to assist researchers in effectively visualizing and comprehending the potential inherent in their data.</p>
-<p  style='text-align: justify;'>grapesDraw serves as an gateway to the future of data exploration in agriculture. Through 14 designed tools, we harness the power of grapesDraw to transform raw numbers into captivating narratives. Our aim is to be your reliable ally on this stimulating journey, facilitating the translation of data into clear, visually compelling stories.</p>
-<p  style='text-align: justify;'>Through grapesDraw, we intend to introduce you to a visual landscape of charts, plots, and graphs that transcend mere information, seamlessly weaving data narratives into aesthetically pleasing representations. We have tried to merge simplicity with sophistication, ensuring that the genuine story behind your data effortlessly shines through.</p>
-<p  style='text-align: justify;'>grapesDraw operates as an open-source platform, governed by the <b>GNU Public License Version 3</b>. For any concerns or issues encountered, we encourage users to kindly raise them on our GitHub repository. Your feedback is invaluable in enhancing and ensuring a more seamless and effective data visualization experience. </p>
-                   ")
-              ), 
+                HTML("<p style='text-align: justify;'>Welcome to the realm of econometrics, a fundamental aspect of economic analysis where understanding and presenting data is paramount. Our goal is to provide researchers with the tools they need to effectively analyze and interpret economic phenomena.</p>
+  <p style='text-align: justify;'>The econR package serves as a comprehensive toolkit for econometric analysis in R. With its diverse range of functions and intuitive interface, we empower users to delve into the intricacies of economic data and uncover meaningful insights.</p>
+  <p style='text-align: justify;'>Through EconometricsR, we aim to demystify econometric modeling and make it accessible to economists at all levels of expertise. Whether you're a student learning the basics or a seasoned researcher tackling complex economic problems, our package is designed to meet your needs.</p>
+  <p style='text-align: justify;'>EconometricsR is an open-source project, licensed under the <b>GNU General Public License Version 3</b>. We encourage users to contribute to the package's development and report any issues or suggestions on our GitHub repository. Your input is crucial in improving the functionality and usability of EconometricsR.</p>")
+              ),
+              
                tags$h3(
                  div(
                    style = "display: flex; justify-content: center;",
